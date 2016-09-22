@@ -1,0 +1,21 @@
+{
+    "name": "f2r/delay",
+    "description": "Delay some task at the end of script, after sending response to the client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frederic Bouchery",
+            "email": "frederic@bouchery.fr"
+        }
+    ],
+    "minimum-stability" : "stable",
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4" : {
+            "f2r\\FPM\\": "src/"
+        }
+    }
+}
