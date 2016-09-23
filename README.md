@@ -35,6 +35,6 @@ after, you can do like this:
 \f2r\FPM\Delay::register($lastCallback, [], 1);
 ```
 
-Priority can is a signed integer, and the callbacks will be ordered with this priority.
+Priority can be a signed integer, and the callbacks will be ordered with this priority.
 
 
