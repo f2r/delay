@@ -13,6 +13,9 @@
     "require": {
         "php": ">=5.5"
     },
+    "suggest": {
+        "psr/log": "^1.0"
+    },
     "autoload": {
         "psr-4" : {
             "f2r\\FPM\\": "src/"
